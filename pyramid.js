@@ -2,7 +2,7 @@
 
 
 var type = 2;
-var rows = 5;
+var rows = 50;
     var a = ''; 
 
     if (type===1){
@@ -12,7 +12,7 @@ var rows = 5;
             a += j + ' ';
         }
         console.log(a);
-        a=' ';
+        a='';
    }
         
     }
@@ -24,7 +24,7 @@ if (type===2){
         a += j + ' ';
     }
     console.log(a);
-    a=' ';
+    a='';
 }
     
 }
